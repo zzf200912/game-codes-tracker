@@ -1,0 +1,43 @@
+{
+  "game": "Grand Theft Auto VI",
+  "description": "Launch facts from official publisher sources only. No rumors.",
+  "last_manual_review": "2026-11-19",
+  "facts": [
+    {
+      "fact": "Release date",
+      "value": "2026-11-19",
+      "source": "official",
+      "source_ref": "Take-Two Interactive press release, 2026-06-24"
+    },
+    {
+      "fact": "Platforms at launch",
+      "value": "PS5, Xbox Series X|S (no PC version announced)",
+      "source": "official",
+      "source_ref": "Rockstar Games official GTA VI pages"
+    },
+    {
+      "fact": "Editions and pricing (US)",
+      "value": "Standard $79.99, Ultimate $99.99",
+      "source": "official",
+      "source_ref": "Take-Two Interactive press release, 2026-06-24"
+    },
+    {
+      "fact": "Pre-order bonus",
+      "value": "Vintage Vice City Pack, digital pre-orders end 2026-11-20",
+      "source": "official",
+      "source_ref": "Take-Two Interactive press release, 2026-06-24"
+    },
+    {
+      "fact": "Pre-load window",
+      "value": "From 2026-11-12 for digital pre-orders",
+      "source": "official",
+      "source_ref": "Take-Two Interactive press release, 2026-06-24"
+    },
+    {
+      "fact": "Setting and protagonists",
+      "value": "Vice City and state of Leonida; dual protagonists Jason and Lucia",
+      "source": "official",
+      "source_ref": "Rockstar Games official GTA VI pages"
+    }
+  ]
+}

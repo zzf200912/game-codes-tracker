@@ -1,0 +1,17 @@
+{
+  "game": "AION 2",
+  "description": "Redeem codes tracked daily. Every entry requires a source; codes without verifiable origin are not listed.",
+  "last_manual_review": "2026-11-19",
+  "codes": [
+    {
+      "code": "DAEVADRESSUP",
+      "rewards": "3 Skin Chests + appearance vouchers",
+      "region": "Global",
+      "expires": "2026-11-25",
+      "status": "active",
+      "verified": "2026-11-19",
+      "source": "community-report"
+    }
+  ],
+  "expired": []
+}

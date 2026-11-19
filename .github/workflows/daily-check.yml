@@ -1,0 +1,28 @@
+name: daily-freshness-check
+
+# Records a daily UTC timestamp of the automated freshness check.
+# Code data itself is updated manually after human verification —
+# see README.md "Data methodology".
+
+on:
+  schedule:
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Refresh verification timestamp
+        run: |
+          mkdir -p meta
+          date -u +"%Y-%m-%dT%H:%M:%SZ" > meta/last-check.txt
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add meta/last-check.txt
+          git diff --cached --quiet || (git commit -m "chore: daily freshness check" && git push)
