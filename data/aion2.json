@@ -1,17 +1,39 @@
 {
   "game": "AION 2",
   "description": "Redeem codes tracked daily. Every entry requires a source; codes without verifiable origin are not listed.",
-  "last_manual_review": "2026-11-19",
+  "last_manual_review": "2026-11-20",
   "codes": [
+    {
+      "code": "THANKSFROMAION2",
+      "rewards": "16 bound item stacks (refinement/breakthrough stones, magic stones, material chests, Odium energy, skill books, resurrection stones, celebration champagne, appearance vouchers and more) — full list in NC's official announcement",
+      "region": "All servers (official notice)",
+      "expires": "2027-03-03",
+      "status": "active",
+      "verified": "2026-11-20",
+      "source": "official",
+      "source_ref": "NC thank-you announcement for AION 2 winning Top Excellence Award and Popular Game Award at the 2026 Korea Game Awards (2026-11-18)"
+    },
     {
       "code": "DAEVADRESSUP",
       "rewards": "3 Skin Chests + appearance vouchers",
       "region": "Global",
       "expires": "2026-11-25",
       "status": "active",
-      "verified": "2026-11-19",
-      "source": "community-report"
+      "verified": "2026-11-20",
+      "source": "community-report",
+      "note": "Ends when the November 25, 2026 maintenance begins; re-verify on Nov 25."
     }
   ],
-  "expired": []
+  "expired": [
+    {
+      "code": "AION2SPOOKYDAEVA",
+      "status": "expired",
+      "source": "community-report"
+    },
+    {
+      "code": "TAKEFLIGHTAION2",
+      "status": "expired",
+      "source": "community-report"
+    }
+  ]
 }
